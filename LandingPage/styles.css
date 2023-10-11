@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Changed to Google Font 'Roboto' */
+    background-image: url('pitch.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: transparent;
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left h1 {
+    margin-right: 50px;
+    font-size: 2em;
+    margin-left: 0;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; /* Set navbar links to white */
+    padding: 10px;
+}
+
+.download-btn {
+    padding: 15px 30px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    background-color: transparent;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.store-buttons img {
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.image-section {
+    flex: 1;
+    position: relative;
+}
+
+.phone-img {
+    max-width: 400px;
+}
+
+.left {
+    position: absolute;
+    left: -30px; /* Adjust as needed */
+    z-index: 2;
+}
+
+.right {
+    position: absolute;
+    left: 50px; /* Adjust as needed */
+    top: 20px; /* Adjust as needed */
+}
+
