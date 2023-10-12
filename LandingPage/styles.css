@@ -90,3 +90,17 @@ body {
     top: 20px; /* Adjust as needed */
 }
 
+@media screen and (min-width: 2520px) and (min-height: 1211px) {
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(100vh - 60px);
+        margin-top: 60px;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+}
