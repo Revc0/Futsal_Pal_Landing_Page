@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif; /* Changed to Google Font 'Roboto' */
-    background-image: url('pitch.png');
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-image: url('../Assets/pitch.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,23 +27,50 @@ body {
 
 .nav-left h1 {
     margin-right: 50px;
-    font-size: 2em;
-    margin-left: 0;
+    font-size: 55px;
+    margin-top: auto;
+}
+.nav-links {
+    margin-bottom: 35px;
 }
 
+
 .nav-links a {
-    margin: 0 15px;
+    margin: 0 30px;
     text-decoration: none;
     color: white; /* Set navbar links to white */
     padding: 10px;
 }
 
+h2 {
+    /* text- weight bold - size - 31 */
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+p {
+    color: #d3cfcf;
+}
+
+span {
+    font-size: 30px;
+}
+
+.text-section {
+    height: 35vh;
+    text-align: center;
+    margin-left: 20px;
+    white-space: nowrap;
+    margin-right: -190px;
+}
+
 .download-btn {
     padding: 15px 30px;
-    border: 2px solid blue;
+    border: 2px solid #6DDCFF;
     border-radius: 25px;
     background-color: transparent;
-    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
     cursor: pointer;
     font-size: 16px;
     color: white;
@@ -57,10 +84,9 @@ body {
     margin-top: 60px;
 }
 
-.text-section {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
+.outer-container {
+    display: flex;
+    margin-left: 180px;
 }
 
 .store-buttons img {
@@ -69,9 +95,10 @@ body {
     cursor: pointer;
 }
 
-.image-section {
-    flex: 1;
-    position: relative;
+.app-img\.png {
+    max-width: 85vh;
+    z-index: 9999;
+    padding-right: 40px;
 }
 
 .phone-img {
